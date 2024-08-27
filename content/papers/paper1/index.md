@@ -28,20 +28,6 @@ editPost:
 
 ##### Abstract
 
-@INPROCEEDINGS{Mest2410:Distributed,
-AUTHOR="",
-TITLE="",
-BOOKTITLE="MILCOM 2024 Track 1 - Waveforms and Signal Processing (MILCOM 2024 Track 1)",
-ADDRESS="Washington, USA",
-PAGES=6,
-DAYS=28,
-MONTH=oct,
-YEAR=2024,
-ABSTRACT=""
-}
-
-
-
 Satellite-based signal intelligence (SIGINT) is a critical capability for modern military and intelligence agencies. However, traditional satellite localization methods rely heavily on centralized ground-based processing, resulting in increased latency, reduced scalability, and strained datalinks. The shift towards small interconnected satellite platforms and the digitalization of payload processing open up new possibilities for distributed satellite systems. In particular, the use of sparse arrays of sensors can provide wide-area coverage and improved resolution compared to traditional single-satellite systems. However, one of the main challenges of sparse arrays is the appearance of manifold grating lobes, which can lead to ambiguity in signal localization and degraded system performance. To address this, we introduce a constellation approach where each satellite is equipped with a phase array antenna, effectively acting as a virtual array of very large aperture. A fully decentralized processing method is described, that enables the identification of more signals than possible for a single platform while mitigating the drawbacks of grating lobes. The computational complexity and communication overhead are derived for comparison to a centralized approach. The proposed architecture is evaluated for an Automatic Identification System (AIS) scenario, demonstrating a significant estimation accuracy.
 
 

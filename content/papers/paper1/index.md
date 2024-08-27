@@ -1,9 +1,9 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-lastmod: 2024-07-12
+title: "Distributed Array Processing for {Multi-Platform} Signal Intelligence" 
+date: 2024-10-28
+lastmod: 2024-07-08
 tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
+author: ["Dany Mestas and Thomas Delamotte and Herv{\'e} Legay and Andreas Knopp"]
 description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
 summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
 cover:
@@ -28,7 +28,22 @@ editPost:
 
 ##### Abstract
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+@INPROCEEDINGS{Mest2410:Distributed,
+AUTHOR="",
+TITLE="",
+BOOKTITLE="MILCOM 2024 Track 1 - Waveforms and Signal Processing (MILCOM 2024 Track 1)",
+ADDRESS="Washington, USA",
+PAGES=6,
+DAYS=28,
+MONTH=oct,
+YEAR=2024,
+ABSTRACT=""
+}
+
+
+
+Satellite-based signal intelligence (SIGINT) is a critical capability for modern military and intelligence agencies. However, traditional satellite localization methods rely heavily on centralized ground-based processing, resulting in increased latency, reduced scalability, and strained datalinks. The shift towards small interconnected satellite platforms and the digitalization of payload processing open up new possibilities for distributed satellite systems. In particular, the use of sparse arrays of sensors can provide wide-area coverage and improved resolution compared to traditional single-satellite systems. However, one of the main challenges of sparse arrays is the appearance of manifold grating lobes, which can lead to ambiguity in signal localization and degraded system performance. To address this, we introduce a constellation approach where each satellite is equipped with a phase array antenna, effectively acting as a virtual array of very large aperture. A fully decentralized processing method is described, that enables the identification of more signals than possible for a single platform while mitigating the drawbacks of grating lobes. The computational complexity and communication overhead are derived for comparison to a centralized approach. The proposed architecture is evaluated for an Automatic Identification System (AIS) scenario, demonstrating a significant estimation accuracy.
+
 
 ---
 
@@ -43,15 +58,37 @@ This paper reviews unusual uses for olive oil throughout the Mediterranean world
 Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.
 
 ```BibTeX
-@article{UI13,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2013},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34},
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
+@INPROCEEDINGS{Mest2410:Distributed,
+AUTHOR="Dany Mestas and Thomas Delamotte and Herv{\'e} Legay and Andreas Knopp",
+TITLE="Distributed Array Processing for {Multi-Platform} Signal Intelligence",
+BOOKTITLE="MILCOM 2024 Track 1 - Waveforms and Signal Processing (MILCOM 2024 Track 1)",
+ADDRESS="Washington, USA",
+PAGES=6,
+DAYS=28,
+MONTH=oct,
+YEAR=2024,
+ABSTRACT="Satellite-based signal intelligence (SIGINT) is a critical capability for
+modern military and intelligence agencies. However, traditional satellite
+localization methods rely heavily on centralized ground-based processing,
+resulting in increased latency, reduced scalability, and strained
+datalinks. The shift towards small interconnected satellite platforms and
+the digitalization of payload processing open up new possibilities for
+distributed satellite systems. In particular, the use of sparse arrays of
+sensors can provide wide-area coverage and improved resolution compared to
+traditional single-satellite systems. However, one of the main challenges
+of sparse arrays is the appearance of manifold grating lobes, which can
+lead to ambiguity in signal localization and degraded system performance.
+To address this, we introduce a constellation approach where each satellite
+is equipped with a phase array antenna, effectively acting as a virtual
+array of very large aperture. A fully decentralized processing method is
+described, that enables the identification of more signals than possible
+for a single platform while mitigating the drawbacks of grating lobes. The
+computational complexity and communication overhead are derived for
+comparison to a centralized approach. The proposed architecture is
+evaluated for an Automatic Identification System (AIS) scenario,
+demonstrating a significant estimation accuracy."
+}
+
 ```
 
 ---

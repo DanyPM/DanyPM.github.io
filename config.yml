@@ -75,22 +75,23 @@ params:
             #  url: archive/
 
     socialIcons:
-    socialIcons:
         # - name: CV
-        #   url: cv_rosa.pdf
+        #   url: cv.pdf
         - name: Email
-          url: mailto:rosa.van-den-ende@univ-paris1.fr
+          url: dany.mestas@ieee.org
         - name: Location
           url: location/
     
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=jwrYE5sAAAAJ&hl=fr
-        - name: LinkedIn
-          url: https://linkedin.com/in/rosavandenende
+        #- name: Google Scholar
+        #  url: https://scholar.google.com/citations?user=jwrYE5sAAAAJ&hl=fr
+        #- name: LinkedIn
+        #  url: https://linkedin.com/in/danypm
         # - name: GitHub
-        #   url: https://github.com/pmichaillat
+        #   url: https://github.com/danypm
         - name: ORCID
-          url: https://orcid.org/0000-0002-9417-1075
+          url: https://orcid.org/0000-0003-1578-009X
+        #- name: TryHackMe
+        #  url: https://tryhackme.com/p/DanyP
 
     assets:
         #disableHLJS: true

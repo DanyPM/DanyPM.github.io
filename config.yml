@@ -11,25 +11,22 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        - name: Publications
           url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+          weight: 1
+        #- name: Talks
+        #  url: talks/
+        #  weight: 2
+        #- name: Resume
+        #  url: cv_rosa.pdf
+        #  weight: 3 
+        # - name: Photography
+        #   url: https://pmichaillat.substack.com
+        #   weight: 4
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Dany Mestas
+    description: "I am a PhD Candidate in Distributed Satellite Systems."
+    author: Name
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -43,7 +40,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    #MainSections: ["books","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -53,57 +50,56 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Dany Mestas, MSc, MA
+          subtitle: "I am a PhD Candidate in Distributed Satellite Systems."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Moritz-Maria von Igelfeld
+          imageTitle: Dany Mestas
           buttons:
-            - name: Papers
+            - name: Publications
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # - name: Courses
+            #   url: courses/
+            # - name: Data
+            #   url: data/
+           # - name: Newsletter
+           #   url: https://pmichaillat.substack.com
+            # - name: Tags
+            #   url: tags/
+            - name: Talks
+              url: talks/
+            - name: Resume
+              url: cv_rosa.pdf
+            #- name: Archive
+            #  url: archive/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+    socialIcons:
+        # - name: CV
+        #   url: cv_rosa.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
+          url: mailto:rosa.van-den-ende@univ-paris1.fr
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
+    
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://scholar.google.com/citations?user=jwrYE5sAAAAJ&hl=fr
+        - name: LinkedIn
+          url: https://linkedin.com/in/rosavandenende
+        # - name: GitHub
+        #   url: https://github.com/pmichaillat
+        - name: ORCID
+          url: https://orcid.org/0000-0002-9417-1075
 
     assets:
+        #disableHLJS: true
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Dany Mestas"
       icon: favicon.ico
       iconHeight: 18
 

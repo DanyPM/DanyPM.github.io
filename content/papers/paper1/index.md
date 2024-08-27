@@ -3,7 +3,7 @@ title: "Distributed Array Processing for {Multi-Platform} Signal Intelligence"
 date: 2024-10-28
 lastmod: 2024-07-08
 tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Dany Mestas and Thomas Delamotte and Herv{\'e} Legay and Andreas Knopp"]
+author: ["Dany Mestas and Thomas Delamotte and Herve Legay and Andreas Knopp"]
 description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
 summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
 cover:

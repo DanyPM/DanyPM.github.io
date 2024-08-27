@@ -1,5 +1,5 @@
 ---
-title: "Distributed Array Processing for {Multi-Platform} Signal Intelligence" 
+title: "Distributed Array Processing for Multi-Platform Signal Intelligence" 
 date: 2024-10-28
 lastmod: 2024-07-08
 tags: ["philology","oleic science","history of oil","Mediterranean world"]

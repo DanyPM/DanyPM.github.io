@@ -88,7 +88,7 @@ params:
         - name: ORCID
           url: https://orcid.org/0000-0003-1578-009X
         - name: LinkedIn
-          url: https://linkedin.com/in/danypm
+          url: https://linkedin.com/in/dany-m/
         - name: GitHub
           url: https://github.com/danypm
         - name: tryhackme
